@@ -17,7 +17,7 @@ function Environment(){
 
     console.log(datas)
     return <div>{
-        datas.map((data) => <p key={data.time}>{data.temperature}</p>)
+        datas.map((data) => <p key={data.time}>{"Nhiệt độ là: " + data.temperature  + " và độ ẩm là: " + data.humidity}</p>)
         }</div>
 }
 
